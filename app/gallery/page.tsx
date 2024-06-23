@@ -1,6 +1,6 @@
 "use client";
-import React, { useState, useEffect } from "react";
 import ImageCard from "@/components/ImageCard";
+import React, { useState, useEffect } from "react";
 
 interface DataProps {
   id: string;
