@@ -286,6 +286,8 @@ const Test = ({ printerId, collectionName }: any) => {
 
         // Add the collection name to the FormData
         formData.append("collectionName", collectionName);
+        // Add the role to the FormData
+        formData.append("role", selecterImageRole);
 
         const generateResponse = await fetch(
           "https://abovedigital-1696444393502.ew.r.appspot.com/v1/face-swap",
